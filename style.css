@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(78, 78, 78);
+}
+.headerlogo{
+    width: 200px;
+    height: 200px;
+    
+}
+.headerlogo img{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    margin: 0 166px;
+}
+.cart img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    position: relative;
+}
+.header{
+    background-image: url(img/white-wood-of-texture_63047-938.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mailicon img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.headerline{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.9 linear;
+}
+.nav-item:hover{
+    color: orange;
+}
+.cart{
+    border-right: 1px solid black;
+    padding: 15px;
+    height: 50px;
+}
+.eml{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.mailtext{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.mailholder{
+    display: flex;
+    align-items: center;
+
+}
+.button{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 14px 17px;
+    font-weight: 700s;
+}
+.button:hover{
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+    padding: 13px 16px;
+    font-weight: 700s;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.headertitle{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Tinos', serif;
+color: black;
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+position: absolute;
+left: 0;
+margin-top: 122px;
+margin-bottom: 13px;
+}
+.headersub{
+    font-size: 65px;
+}
+.headerdown{
+    position: relative;
+    display: flex;
+}
+.headersup{
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.headersup:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: rgb(83, 83, 83);
+    top: 143px;
+    left: 0;
+}
+.headersup::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: rgb(83, 83, 83);
+    top: 143px;
+    left: 222px;
+}
+.headerbtn{
+    background-color: orange;
+    padding: 14px 28px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.headerbtn:hover{
+
+    background-color: orange;
+    padding: 13px 27px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.cardimage{
+    display: flex;
+    justify-content: center;
+}
+.cardimg{
+    width: 60px;
+    height: 60px;
+    margin: 13px 0;
+}   
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin-right: 31px;
+    margin-top: -80px;
+    box-shadow: 10px 10px 40px 20px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.card-desc{
+text-align: center;
+margin: 5px 10px;
+}
+.cardhold{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    justify-content: center;
+}
+.foodimg{
+    width: 330px;
+    height: 330px;
+    position: relative;
+    left: 700px ;
+}
+.photo.container{
+    margin: 50px 120px;
+
+}
+.row1{ 
+    display: flex;
+}
+.gal1{
+    width: 500px;
+    margin-right: 6px;
+    margin-left: 13px
+}
+.gal2{
+    width: 494px;
+}
+.gal3{
+    width: 1000px;
+    margin-top: 6px;
+    margin-left: 13px;
+}
+.gallery{
+    margin: 50px 94px;
+    width: 1026px;
+    background-color: white;
+}
+.gallerytitle{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Tinos', serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.vk{
+    width: 35px;
+    height: 35px;
+}
+.footer{
+    height: 120px;
+    background-image: url(img/white-wood-of-texture_63047-938.webp);
+    text-align: center;
+    font-family:'Tinos', serif;
+    font-weight: 400;
+}
+.tg{
+    width: 35px;
+    height: 35px;
+}
+.navcont{
+    display: flex;
+    justify-content: center
+}
+.navelem{
+    margin-left: 15px;
+}
+.galcont{
+    display: flex;
+    justify-content: center;
+}
